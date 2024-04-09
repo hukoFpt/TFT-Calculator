@@ -3,12 +3,22 @@ import { join } from 'path'
 import { electronApp, optimizer, is } from '@electron-toolkit/utils'
 import icon from '../../resources/icon.png?asset'
 
+ipcMain.on('minimize-window', (event) => {
+  const win = BrowserWindow.fromWebContents(event.sender)
+  win.minimize()
+})
+ipcMain.on('close-window', (event) => {
+  const win = BrowserWindow.fromWebContents(event.sender)
+  win.close()
+})
+
 function createWindow(): void {
   // Create the browser window.
   const mainWindow = new BrowserWindow({
-    width: 900,
+    width: 1347,
     height: 670,
     show: false,
+    frame: false,
     autoHideMenuBar: true,
     ...(process.platform === 'linux' ? { icon } : {}),
     webPreferences: {
