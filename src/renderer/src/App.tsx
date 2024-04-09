@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Papa from 'papaparse'
-import ahriImage from '../src/assests/image/champion/TFT11_Ahri.png'
+import { DndProvider, useDrag } from 'react-dnd'
+import { HTML5Backend } from 'react-dnd-html5-backend';
 
 function App(): JSX.Element {
   const minimizeWindow = () => {
@@ -8,6 +9,25 @@ function App(): JSX.Element {
   }
   const closeWindow = () => {
     window.electron.send('close-window')
+  }
+
+  const DraggableChampion = ({ id, name, image, className }) => {
+    const [{ isDragging }, drag] = useDrag(() => ({
+      type: 'champion',
+      item: { id },
+      collect: (monitor) => ({
+        isDragging: !!monitor.isDragging()
+      })
+    }))
+    return (
+      <div
+        ref={drag}
+        className={`draggable-champion ${className}`}
+        style={{ opacity: isDragging ? 0.5 : 1 }}
+      >
+        <img src={image} alt={name} style={{ height: '60px' }} />
+      </div>
+    )
   }
 
   const [champions, setChampion] = useState([])
@@ -22,7 +42,7 @@ function App(): JSX.Element {
   }, [])
 
   return (
-    <>
+    <DndProvider backend={HTML5Backend}>
       <div id="title-bar" className="title-bar flex justify-between">
         <div className="font-semibold py-1 px-2">TFT Calculator</div>
         <div className="button flex">
@@ -53,14 +73,21 @@ function App(): JSX.Element {
       </div>
 
       <div className="w-4/6 champion-list p-2 flex flex-col gap-1 bg-zinc-800 m-2 rounded-md border border-zinc-600">
-        <div className='text-center font-semibold'>Champion List</div>
+        <div className="text-center font-semibold">Champion List</div>
         <div className="1-cost flex gap-1">
           {champions
             .filter((champion) => champion.cost === '1')
             .map((champion) => (
-              <div key={champion.id} className="border-2 border-slate-500 rounded">
-                <img src={champion.image} alt="Ahri" style={{ height: '60px', padding: '2px' }} />
-              </div>
+              // <div key={champion.id} className="border-2 border-slate-500 rounded">
+              //   <img src={champion.image} alt="Ahri" style={{ height: '60px', padding: '2px' }} />
+              // </div>
+              <DraggableChampion
+                key={champion.id}
+                id={champion.id}
+                name={champion.name}
+                image={champion.image}
+                className="border-2 border-slate-500 rounded"
+              />
             ))}
         </div>
         <div className="1-cost flex gap-1">
@@ -100,7 +127,7 @@ function App(): JSX.Element {
             ))}
         </div>
       </div>
-    </>
+    </DndProvider>
   )
 }
 
