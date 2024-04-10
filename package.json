@@ -6,6 +6,7 @@
   "author": "Huko FPT",
   "homepage": "https://electron-vite.org",
   "scripts": {
+    "copy-images": "copyfiles -u 1 src/renderer/src/components/resources/champion/*.png build/resources/champion",
     "format": "prettier --write .",
     "lint": "eslint . --ext .js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix",
     "typecheck:node": "tsc --noEmit -p tsconfig.node.json --composite false",
@@ -29,6 +30,7 @@
     "postcss": "^8.4.38",
     "react-dnd": "^16.0.1",
     "react-dnd-html5-backend": "^16.0.1",
+    "react-dnd-touch-backend": "^16.0.1",
     "tailwindcss": "^3.4.3"
   },
   "devDependencies": {
@@ -39,6 +41,7 @@
     "@types/react": "^18.2.48",
     "@types/react-dom": "^18.2.18",
     "@vitejs/plugin-react": "^4.2.1",
+    "copyfiles": "^2.4.1",
     "electron": "^28.2.0",
     "electron-builder": "^24.9.1",
     "electron-vite": "^2.0.0",
@@ -48,6 +51,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "typescript": "^5.3.3",
-    "vite": "^5.0.12"
+    "vite": "^5.0.12",
+    "vite-plugin-string": "^1.2.3"
   }
 }

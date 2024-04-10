@@ -5,17 +5,21 @@ import icon from '../../resources/icon.png?asset'
 
 ipcMain.on('minimize-window', (event) => {
   const win = BrowserWindow.fromWebContents(event.sender)
-  win.minimize()
+  if (win) {
+    win.minimize()
+  }
 })
 ipcMain.on('close-window', (event) => {
   const win = BrowserWindow.fromWebContents(event.sender)
-  win.close()
+  if (win) {
+    win.close()
+  }
 })
 
 function createWindow(): void {
   // Create the browser window.
   const mainWindow = new BrowserWindow({
-    width: 1347,
+    width: 1370,
     height: 670,
     show: false,
     frame: false,
