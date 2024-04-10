@@ -1,0 +1,146 @@
+id,name,image,option,type
+1,B.F. Sword,bf_sword.png,component,component
+2,Chain Vest,chain_vest.png,component,component
+3,Giant's Belt,giants_belt.png,component,component
+4,Needlessly Large Rod,needlessly_large_rod.png,component,component
+5,Negatron Cloak,negatron_cloak.png,component,component
+6,Recurve Bow,recurve_bow.png,component,component
+7,Sparring Gloves,sparring_gloves.png,component,component
+8,Spatula,spatula.png,component,component
+9,Tear of the Goddess,tear_of_the_goddess.png,component,component
+10,Adaptive Helm,adaptive_helm.png,craftable,craftable
+11,Archangle Staff,archangel_staff.png,craftable,craftable
+12,Behemoth,behemoth.png,craftable,craftable
+13,Bloodthrister,bloodthirster.png,craftable,craftable
+14,Blue Buff,blue_buff.png,craftable,craftable
+15,Bramble Vest,bramble_vest.png,craftable,craftable
+16,Crownguard,crownguard.png,craftable,craftable
+17,Deathblade,death_blade.png,craftable,craftable
+18,Dragon's Claw,dragons_claw.png,craftable,craftable
+19,Edge of Night,edge_of_night.png,craftable,craftable
+20,Evenshroud,evenshroud.png,craftable,craftable
+21,Gargoyle Stoneplate,gargoyle_stoneplate.png,craftable,craftable
+22,Giant Slayer,giant_slayer.png,craftable,craftable
+23,Guinsoo's Rageblade,guinsoos_rageblade.png,craftable,craftable
+24,Hand of Justice,hand_of_justice.png,craftable,craftable
+25,Hextech Gunblade,hextech_gunblade.png,craftable,craftable
+26,Infinity Edge,infinity_edge.png,craftable,craftable
+27,Ionic Spark,ionic_spark.png,craftable,craftable
+28,Jeweled Guantlet,jeweled_guantlet.png,craftable,craftable
+29,Last Whisper,last_whisper.png,craftable,craftable
+30,Morellonomicon,morellonomicon.png,craftable,craftable
+31,Nashor Tooth,nashors_tooth.png,craftable,craftable
+32,Quicksilver,quicksilver.png,craftable,craftable
+33,Rabadon's Deathcap,rabadons_deathcap.png,craftable,craftable
+34,Red Buff,redbuff.png,craftable,craftable
+35,Redemption,redemption.png,craftable,craftable
+36,Runaan Hurricance,runaans_hurricane.png,craftable,craftable
+37,Spear of Shojin,spear_of_shojin.png,craftable,craftable
+38,Statikk Shiv,statikk_shiv.png,craftable,craftable
+39,Sterak's Gage,steraks_gage.png,craftable,craftable
+40,Guardbreaker,stridebreaker.png,craftable,craftable
+41,Sunfire Cape,sunfire_cape.png,craftable,craftable
+42,Tactician's Crown,tacticians_crown.png,craftable,craftable
+43,Thieve's Gloves,thieves_gloves.png,craftable,craftable
+44,Titan's Resolve,titans_resolve.png,craftable,craftable
+45,Warmog's Armor,warmogs_armor.png,craftable,craftable
+46,Winter's Approach,winters_approach.png,craftable,craftable
+47,Jak'sho the Protean,adaptive_helm_radiant.png,radiant,radiant
+48,Urf-Angel's Staff,archangel_staff_radiant.png,radiant,radiant
+49,Legacy of the Colossus,behemoth_radiant.png,radiant,radiant
+50,Blessed Bloodthirster,bloodthirster_radiant.png,radiant,radiant
+51,Blue Blessing,blue_buff_radiant.png,radiant,radiant
+52,Rosethorn Vest,bramble_vest_radiant.png,radiant,radiant
+53,Royal Crownshield,crownguard_radiant.png,radiant,radiant
+54,Luminous Deathblade,death_blade_radiant.png,radiant,radiant
+55,Dragon's Will,dragons_claw_radiant.png,radiant,radiant
+56,Brink of Dawn,edge_of_night_radiant.png,radiant,radiant
+57,Equinox,evenshroud_radiant.png,radiant,radiant
+58,Bulwark's Oath,fimbulwinter_radiant.png,radiant,radiant
+59,Dvarapala Stoneplate,gargoyle_stoneplate_radiant.png,radiant,radiant
+60,Demonslayer,giant_slayer_radiant.png,radiant,radiant
+61,Guinsoo's Reckoning,guinsoos_rageblade_radiant.png,radiant,radiant
+62,Fist of Fairness,hand_of_justice_radiant.png,radiant,radiant
+63,Hextech Lifeblade,hextech_gunblade_radiant.png,radiant,radiant
+64,Zenith Edge,infinity_edge_radiant.png,radiant,radiant
+65,Covalent Spark,ionic_spark_radiant.png,radiant,radiant
+66,Glamorous Gauntlet,jeweled_gauntlet_radiant.png,radiant,radiant
+67,Eternal Whisper,last_whisper_radiant.png,radiant,radiant
+68,More More-ellonomicon,morellonomicon_radiant.png,radiant,radiant
+69,The Baron's Gift,nashors_tooth_radiant.png,radiant,radiant
+70,Quickestsilver,quicksilver_radiant.png,radiant,radiant
+71,Rabadon's Ascended Deathcap,rabadons_deathcap_radiant.png,radiant,radiant
+72,Crest of Cinders,redbuff_radiant.png,radiant,radiant
+73,Absolution,redemption_radiant.png,radiant,radiant
+74,Runaan's Tempest,runaans_hurricane_radiant.png,radiant,radiant
+75,Spear of Hirana,spear_of_shojin_radiant.png,radiant,radiant
+76,Statikk's Favor,statikk_shiv_radiant.png,radiant,radiant
+77,Sterak's Megashield,steraks_gage_radiant.png,radiant,radiant
+78,Willbreaker,stridebreaker-radiant.png,radiant,radiant
+79,Sunlight Cape,sunfire_cape_radiant.png,radiant,radiant
+80,Rascal's Gloves,thieves_gloves_radiant.png,radiant,radiant
+81,Titan's Vow,titans_resolve_radiant.png,radiant,radiant
+82,Warmog's Pride,warmogs_armor_radiant.png,radiant,radiant
+83,Dryad Emblem,emblem_dryad.png,other,craftable_emblem
+84,Fated Emblem,emblem_fated.png,other,craftable_emblem
+85,Ghostly Emblem,emblem_ghostly.png,other,craftable_emblem
+86,Heavenly Emblem,emblem_heavenly.png,other,craftable_emblem
+87,Mythic Emblem,emblem_mythic.png,other,craftable_emblem
+88,Porcelain Emblem,emblem_porcelain.png,other,craftable_emblem
+89,Skyweaver Emblem,emblem_skyweaver.png,other,craftable_emblem
+90,Umbral Emblem,emblem_umbral.png,other,craftable_emblem
+91,Altruist Emblem,emblem_altruist.png,other,exclusive_emblem
+92,Arcanist Emblem,emblem_arcanist.png,other,exclusive_emblem
+93,Behemoth Emblem,emblem_behemoth.png,other,exclusive_emblem
+94,Bruiser Emblem,emblem_bruiser.png,other,exclusive_emblem
+95,Dragonlord Emblem,emblem_dragonlord.png,other,exclusive_emblem
+96,Duelist Emblem,emblem_duelist.png,other,exclusive_emblem
+97,Fortune Emblem,emblem_fortune.png,other,exclusive_emblem
+98,Inkshadow Emblem,emblem_inkshadow.png,other,exclusive_emblem
+99,Invoker Emblem,emblem_invoker.png,other,exclusive_emblem
+100,Reaper Emblem,emblem_reaper.png,other,exclusive_emblem
+101,Sage Emblem,emblem_sage.png,other,exclusive_emblem
+102,Sniper Emblem,emblem_sniper.png,other,exclusive_emblem
+103,Warden Emblem,emblem_warden.png,other,exclusive_emblem
+104,Deathfire Grasp,deathfiregrasp.png,other,artifact
+105,Death's Defiance,deathsdance.png,other,artifact
+106,Diamond Hands,diamondhands.png,other,artifact
+107,Eternal Winter,everfrost.png,other,artifact
+108,Gambler's Blade,gamblersblade.png,other,artifact
+109,Goldmancer's Staff,goldmancersstaff.png,other,artifact
+110,Hullcrusher,hullbreaker.png,other,artifact
+111,Mogul's Mail,mail.png,other,artifact
+112,Manazane,muramana.png,other,artifact
+113,Sniper's Focus,snipersfocus.png,other,artifact
+114,Anima Visage,spiritvisage.png,other,artifact
+115,Gold Collector,thecollector.png,other,artifact
+116,Trickster's Glass,trickstersglass.png,other,artifact
+117,Infinity Force,trinityforce.png,other,artifact
+118,Zhonya's Paradox,zhonyashourglass.png,other,artifact
+119,Aegis of the Legion,aegis.png,other,support
+120,Banshee's Veil,banshees_veil.png,other,support
+121,Chalice of Power,chalice_of_power.png,other,support
+122,Locket of the Iron Solari,locket_of_the_iron_solari.png,other,support
+123,Needlessly Big Gem,needlessy_large_gem.png,other,support
+124,Obsidian Cleaver,obsidian_cleaver.png,other,support
+125,Virtue of the Martyr,radiant_virtue.png,other,support
+126,Randuin's Omen,randuins_sanctum.png,other,support
+127,Shroud of Stillness,shroud_of_stillness.png,other,support
+128,Zeke's Herald,zekes_herald.png,other,support
+129,Zephyr,zephyr.png,other,support
+130,Zz'Rot Portal,zzrot_portal.png,other,support
+131,Tattoo of Bombardment,bombardment.png,other,inkshadow
+132,Tattoo of Force,force.png,other,inkshadow
+133,Tattoo of Fury,fury.png,other,inkshadow
+134,Tattoo of Protection,protection.png,other,inkshadow
+135,Tattoo of Toxin,toxin.png,other,inkshadow
+136,Tattoo of Vitality,vitality.png,other,inkshadow
+137,Talisman of Might,abilitypower1.png,other,storyweaver
+138,Scroll of Force,abilitypower2.png,other,storyweaver
+139,Tome of Power,abilitypower3.png,other,storyweaver
+140,Talisman of Speed,attackspeed1.png,other,storyweaver
+141,Scroll of Haste,attackspeed2.png,other,storyweaver
+142,Tome of Swiftness,attackspeed3.png,other,storyweaver
+143,Talisman of Aid,support1.png,other,storyweaver
+144,Tome of Mending,support3.png,other,storyweaver
+145,ascension,ascension.png,other,storyweaver

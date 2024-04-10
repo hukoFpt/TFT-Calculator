@@ -1,0 +1,1017 @@
+[
+    {
+      "id": 1,
+      "name": "B.F. Sword",
+      "image": "bf_sword.png",
+      "option": "component",
+      "type": "component"
+    },
+    {
+      "id": 2,
+      "name": "Chain Vest",
+      "image": "chain_vest.png",
+      "option": "component",
+      "type": "component"
+    },
+    {
+      "id": 3,
+      "name": "Giant's Belt",
+      "image": "giants_belt.png",
+      "option": "component",
+      "type": "component"
+    },
+    {
+      "id": 4,
+      "name": "Needlessly Large Rod",
+      "image": "needlessly_large_rod.png",
+      "option": "component",
+      "type": "component"
+    },
+    {
+      "id": 5,
+      "name": "Negatron Cloak",
+      "image": "negatron_cloak.png",
+      "option": "component",
+      "type": "component"
+    },
+    {
+      "id": 6,
+      "name": "Recurve Bow",
+      "image": "recurve_bow.png",
+      "option": "component",
+      "type": "component"
+    },
+    {
+      "id": 7,
+      "name": "Sparring Gloves",
+      "image": "sparring_gloves.png",
+      "option": "component",
+      "type": "component"
+    },
+    {
+      "id": 8,
+      "name": "Spatula",
+      "image": "spatula.png",
+      "option": "component",
+      "type": "component"
+    },
+    {
+      "id": 9,
+      "name": "Tear of the Goddess",
+      "image": "tear_of_the_goddess.png",
+      "option": "component",
+      "type": "component"
+    },
+    {
+      "id": 10,
+      "name": "Adaptive Helm",
+      "image": "adaptive_helm.png",
+      "option": "craftable",
+      "type": "craftable"
+    },
+    {
+      "id": 11,
+      "name": "Archangle Staff",
+      "image": "archangel_staff.png",
+      "option": "craftable",
+      "type": "craftable"
+    },
+    {
+      "id": 12,
+      "name": "Behemoth",
+      "image": "behemoth.png",
+      "option": "craftable",
+      "type": "craftable"
+    },
+    {
+      "id": 13,
+      "name": "Bloodthrister",
+      "image": "bloodthirster.png",
+      "option": "craftable",
+      "type": "craftable"
+    },
+    {
+      "id": 14,
+      "name": "Blue Buff",
+      "image": "blue_buff.png",
+      "option": "craftable",
+      "type": "craftable"
+    },
+    {
+      "id": 15,
+      "name": "Bramble Vest",
+      "image": "bramble_vest.png",
+      "option": "craftable",
+      "type": "craftable"
+    },
+    {
+      "id": 16,
+      "name": "Crownguard",
+      "image": "crownguard.png",
+      "option": "craftable",
+      "type": "craftable"
+    },
+    {
+      "id": 17,
+      "name": "Deathblade",
+      "image": "death_blade.png",
+      "option": "craftable",
+      "type": "craftable"
+    },
+    {
+      "id": 18,
+      "name": "Dragon's Claw",
+      "image": "dragons_claw.png",
+      "option": "craftable",
+      "type": "craftable"
+    },
+    {
+      "id": 19,
+      "name": "Edge of Night",
+      "image": "edge_of_night.png",
+      "option": "craftable",
+      "type": "craftable"
+    },
+    {
+      "id": 20,
+      "name": "Evenshroud",
+      "image": "evenshroud.png",
+      "option": "craftable",
+      "type": "craftable"
+    },
+    {
+      "id": 21,
+      "name": "Gargoyle Stoneplate",
+      "image": "gargoyle_stoneplate.png",
+      "option": "craftable",
+      "type": "craftable"
+    },
+    {
+      "id": 22,
+      "name": "Giant Slayer",
+      "image": "giant_slayer.png",
+      "option": "craftable",
+      "type": "craftable"
+    },
+    {
+      "id": 23,
+      "name": "Guinsoo's Rageblade",
+      "image": "guinsoos_rageblade.png",
+      "option": "craftable",
+      "type": "craftable"
+    },
+    {
+      "id": 24,
+      "name": "Hand of Justice",
+      "image": "hand_of_justice.png",
+      "option": "craftable",
+      "type": "craftable"
+    },
+    {
+      "id": 25,
+      "name": "Hextech Gunblade",
+      "image": "hextech_gunblade.png",
+      "option": "craftable",
+      "type": "craftable"
+    },
+    {
+      "id": 26,
+      "name": "Infinity Edge",
+      "image": "infinity_edge.png",
+      "option": "craftable",
+      "type": "craftable"
+    },
+    {
+      "id": 27,
+      "name": "Ionic Spark",
+      "image": "ionic_spark.png",
+      "option": "craftable",
+      "type": "craftable"
+    },
+    {
+      "id": 28,
+      "name": "Jeweled Guantlet",
+      "image": "jeweled_guantlet.png",
+      "option": "craftable",
+      "type": "craftable"
+    },
+    {
+      "id": 29,
+      "name": "Last Whisper",
+      "image": "last_whisper.png",
+      "option": "craftable",
+      "type": "craftable"
+    },
+    {
+      "id": 30,
+      "name": "Morellonomicon",
+      "image": "morellonomicon.png",
+      "option": "craftable",
+      "type": "craftable"
+    },
+    {
+      "id": 31,
+      "name": "Nashor Tooth",
+      "image": "nashors_tooth.png",
+      "option": "craftable",
+      "type": "craftable"
+    },
+    {
+      "id": 32,
+      "name": "Quicksilver",
+      "image": "quicksilver.png",
+      "option": "craftable",
+      "type": "craftable"
+    },
+    {
+      "id": 33,
+      "name": "Rabadon's Deathcap",
+      "image": "rabadons_deathcap.png",
+      "option": "craftable",
+      "type": "craftable"
+    },
+    {
+      "id": 34,
+      "name": "Red Buff",
+      "image": "redbuff.png",
+      "option": "craftable",
+      "type": "craftable"
+    },
+    {
+      "id": 35,
+      "name": "Redemption",
+      "image": "redemption.png",
+      "option": "craftable",
+      "type": "craftable"
+    },
+    {
+      "id": 36,
+      "name": "Runaan Hurricance",
+      "image": "runaans_hurricane.png",
+      "option": "craftable",
+      "type": "craftable"
+    },
+    {
+      "id": 37,
+      "name": "Spear of Shojin",
+      "image": "spear_of_shojin.png",
+      "option": "craftable",
+      "type": "craftable"
+    },
+    {
+      "id": 38,
+      "name": "Statikk Shiv",
+      "image": "statikk_shiv.png",
+      "option": "craftable",
+      "type": "craftable"
+    },
+    {
+      "id": 39,
+      "name": "Sterak's Gage",
+      "image": "steraks_gage.png",
+      "option": "craftable",
+      "type": "craftable"
+    },
+    {
+      "id": 40,
+      "name": "Guardbreaker",
+      "image": "stridebreaker.png",
+      "option": "craftable",
+      "type": "craftable"
+    },
+    {
+      "id": 41,
+      "name": "Sunfire Cape",
+      "image": "sunfire_cape.png",
+      "option": "craftable",
+      "type": "craftable"
+    },
+    {
+      "id": 42,
+      "name": "Tactician's Crown",
+      "image": "tacticians_crown.png",
+      "option": "craftable",
+      "type": "craftable"
+    },
+    {
+      "id": 43,
+      "name": "Thieve's Gloves",
+      "image": "thieves_gloves.png",
+      "option": "craftable",
+      "type": "craftable"
+    },
+    {
+      "id": 44,
+      "name": "Titan's Resolve",
+      "image": "titans_resolve.png",
+      "option": "craftable",
+      "type": "craftable"
+    },
+    {
+      "id": 45,
+      "name": "Warmog's Armor",
+      "image": "warmogs_armor.png",
+      "option": "craftable",
+      "type": "craftable"
+    },
+    {
+      "id": 46,
+      "name": "Winter's Approach",
+      "image": "winters_approach.png",
+      "option": "craftable",
+      "type": "craftable"
+    },
+    {
+      "id": 47,
+      "name": "Jak'sho the Protean",
+      "image": "adaptive_helm_radiant.png",
+      "option": "radiant",
+      "type": "radiant"
+    },
+    {
+      "id": 48,
+      "name": "Urf-Angel's Staff",
+      "image": "archangel_staff_radiant.png",
+      "option": "radiant",
+      "type": "radiant"
+    },
+    {
+      "id": 49,
+      "name": "Legacy of the Colossus",
+      "image": "behemoth_radiant.png",
+      "option": "radiant",
+      "type": "radiant"
+    },
+    {
+      "id": 50,
+      "name": "Blessed Bloodthirster",
+      "image": "bloodthirster_radiant.png",
+      "option": "radiant",
+      "type": "radiant"
+    },
+    {
+      "id": 51,
+      "name": "Blue Blessing",
+      "image": "blue_buff_radiant.png",
+      "option": "radiant",
+      "type": "radiant"
+    },
+    {
+      "id": 52,
+      "name": "Rosethorn Vest",
+      "image": "bramble_vest_radiant.png",
+      "option": "radiant",
+      "type": "radiant"
+    },
+    {
+      "id": 53,
+      "name": "Royal Crownshield",
+      "image": "crownguard_radiant.png",
+      "option": "radiant",
+      "type": "radiant"
+    },
+    {
+      "id": 54,
+      "name": "Luminous Deathblade",
+      "image": "death_blade_radiant.png",
+      "option": "radiant",
+      "type": "radiant"
+    },
+    {
+      "id": 55,
+      "name": "Dragon's Will",
+      "image": "dragons_claw_radiant.png",
+      "option": "radiant",
+      "type": "radiant"
+    },
+    {
+      "id": 56,
+      "name": "Brink of Dawn",
+      "image": "edge_of_night_radiant.png",
+      "option": "radiant",
+      "type": "radiant"
+    },
+    {
+      "id": 57,
+      "name": "Equinox",
+      "image": "evenshroud_radiant.png",
+      "option": "radiant",
+      "type": "radiant"
+    },
+    {
+      "id": 58,
+      "name": "Bulwark's Oath",
+      "image": "fimbulwinter_radiant.png",
+      "option": "radiant",
+      "type": "radiant"
+    },
+    {
+      "id": 59,
+      "name": "Dvarapala Stoneplate",
+      "image": "gargoyle_stoneplate_radiant.png",
+      "option": "radiant",
+      "type": "radiant"
+    },
+    {
+      "id": 60,
+      "name": "Demonslayer",
+      "image": "giant_slayer_radiant.png",
+      "option": "radiant",
+      "type": "radiant"
+    },
+    {
+      "id": 61,
+      "name": "Guinsoo's Reckoning",
+      "image": "guinsoos_rageblade_radiant.png",
+      "option": "radiant",
+      "type": "radiant"
+    },
+    {
+      "id": 62,
+      "name": "Fist of Fairness",
+      "image": "hand_of_justice_radiant.png",
+      "option": "radiant",
+      "type": "radiant"
+    },
+    {
+      "id": 63,
+      "name": "Hextech Lifeblade",
+      "image": "hextech_gunblade_radiant.png",
+      "option": "radiant",
+      "type": "radiant"
+    },
+    {
+      "id": 64,
+      "name": "Zenith Edge",
+      "image": "infinity_edge_radiant.png",
+      "option": "radiant",
+      "type": "radiant"
+    },
+    {
+      "id": 65,
+      "name": "Covalent Spark",
+      "image": "ionic_spark_radiant.png",
+      "option": "radiant",
+      "type": "radiant"
+    },
+    {
+      "id": 66,
+      "name": "Glamorous Gauntlet",
+      "image": "jeweled_gauntlet_radiant.png",
+      "option": "radiant",
+      "type": "radiant"
+    },
+    {
+      "id": 67,
+      "name": "Eternal Whisper",
+      "image": "last_whisper_radiant.png",
+      "option": "radiant",
+      "type": "radiant"
+    },
+    {
+      "id": 68,
+      "name": "More More-ellonomicon",
+      "image": "morellonomicon_radiant.png",
+      "option": "radiant",
+      "type": "radiant"
+    },
+    {
+      "id": 69,
+      "name": "The Baron's Gift",
+      "image": "nashors_tooth_radiant.png",
+      "option": "radiant",
+      "type": "radiant"
+    },
+    {
+      "id": 70,
+      "name": "Quickestsilver",
+      "image": "quicksilver_radiant.png",
+      "option": "radiant",
+      "type": "radiant"
+    },
+    {
+      "id": 71,
+      "name": "Rabadon's Ascended Deathcap",
+      "image": "rabadons_deathcap_radiant.png",
+      "option": "radiant",
+      "type": "radiant"
+    },
+    {
+      "id": 72,
+      "name": "Crest of Cinders",
+      "image": "redbuff_radiant.png",
+      "option": "radiant",
+      "type": "radiant"
+    },
+    {
+      "id": 73,
+      "name": "Absolution",
+      "image": "redemption_radiant.png",
+      "option": "radiant",
+      "type": "radiant"
+    },
+    {
+      "id": 74,
+      "name": "Runaan's Tempest",
+      "image": "runaans_hurricane_radiant.png",
+      "option": "radiant",
+      "type": "radiant"
+    },
+    {
+      "id": 75,
+      "name": "Spear of Hirana",
+      "image": "spear_of_shojin_radiant.png",
+      "option": "radiant",
+      "type": "radiant"
+    },
+    {
+      "id": 76,
+      "name": "Statikk's Favor",
+      "image": "statikk_shiv_radiant.png",
+      "option": "radiant",
+      "type": "radiant"
+    },
+    {
+      "id": 77,
+      "name": "Sterak's Megashield",
+      "image": "steraks_gage_radiant.png",
+      "option": "radiant",
+      "type": "radiant"
+    },
+    {
+      "id": 78,
+      "name": "Willbreaker",
+      "image": "stridebreaker-radiant.png",
+      "option": "radiant",
+      "type": "radiant"
+    },
+    {
+      "id": 79,
+      "name": "Sunlight Cape",
+      "image": "sunfire_cape_radiant.png",
+      "option": "radiant",
+      "type": "radiant"
+    },
+    {
+      "id": 80,
+      "name": "Rascal's Gloves",
+      "image": "thieves_gloves_radiant.png",
+      "option": "radiant",
+      "type": "radiant"
+    },
+    {
+      "id": 81,
+      "name": "Titan's Vow",
+      "image": "titans_resolve_radiant.png",
+      "option": "radiant",
+      "type": "radiant"
+    },
+    {
+      "id": 82,
+      "name": "Warmog's Pride",
+      "image": "warmogs_armor_radiant.png",
+      "option": "radiant",
+      "type": "radiant"
+    },
+    {
+      "id": 83,
+      "name": "Dryad Emblem",
+      "image": "emblem_dryad.png",
+      "option": "other",
+      "type": "craftable_emblem"
+    },
+    {
+      "id": 84,
+      "name": "Fated Emblem",
+      "image": "emblem_fated.png",
+      "option": "other",
+      "type": "craftable_emblem"
+    },
+    {
+      "id": 85,
+      "name": "Ghostly Emblem",
+      "image": "emblem_ghostly.png",
+      "option": "other",
+      "type": "craftable_emblem"
+    },
+    {
+      "id": 86,
+      "name": "Heavenly Emblem",
+      "image": "emblem_heavenly.png",
+      "option": "other",
+      "type": "craftable_emblem"
+    },
+    {
+      "id": 87,
+      "name": "Mythic Emblem",
+      "image": "emblem_mythic.png",
+      "option": "other",
+      "type": "craftable_emblem"
+    },
+    {
+      "id": 88,
+      "name": "Porcelain Emblem",
+      "image": "emblem_porcelain.png",
+      "option": "other",
+      "type": "craftable_emblem"
+    },
+    {
+      "id": 89,
+      "name": "Skyweaver Emblem",
+      "image": "emblem_skyweaver.png",
+      "option": "other",
+      "type": "craftable_emblem"
+    },
+    {
+      "id": 90,
+      "name": "Umbral Emblem",
+      "image": "emblem_umbral.png",
+      "option": "other",
+      "type": "craftable_emblem"
+    },
+    {
+      "id": 91,
+      "name": "Altruist Emblem",
+      "image": "emblem_altruist.png",
+      "option": "other",
+      "type": "exclusive_emblem"
+    },
+    {
+      "id": 92,
+      "name": "Arcanist Emblem",
+      "image": "emblem_arcanist.png",
+      "option": "other",
+      "type": "exclusive_emblem"
+    },
+    {
+      "id": 93,
+      "name": "Behemoth Emblem",
+      "image": "emblem_behemoth.png",
+      "option": "other",
+      "type": "exclusive_emblem"
+    },
+    {
+      "id": 94,
+      "name": "Bruiser Emblem",
+      "image": "emblem_bruiser.png",
+      "option": "other",
+      "type": "exclusive_emblem"
+    },
+    {
+      "id": 95,
+      "name": "Dragonlord Emblem",
+      "image": "emblem_dragonlord.png",
+      "option": "other",
+      "type": "exclusive_emblem"
+    },
+    {
+      "id": 96,
+      "name": "Duelist Emblem",
+      "image": "emblem_duelist.png",
+      "option": "other",
+      "type": "exclusive_emblem"
+    },
+    {
+      "id": 97,
+      "name": "Fortune Emblem",
+      "image": "emblem_fortune.png",
+      "option": "other",
+      "type": "exclusive_emblem"
+    },
+    {
+      "id": 98,
+      "name": "Inkshadow Emblem",
+      "image": "emblem_inkshadow.png",
+      "option": "other",
+      "type": "exclusive_emblem"
+    },
+    {
+      "id": 99,
+      "name": "Invoker Emblem",
+      "image": "emblem_invoker.png",
+      "option": "other",
+      "type": "exclusive_emblem"
+    },
+    {
+      "id": 100,
+      "name": "Reaper Emblem",
+      "image": "emblem_reaper.png",
+      "option": "other",
+      "type": "exclusive_emblem"
+    },
+    {
+      "id": 101,
+      "name": "Sage Emblem",
+      "image": "emblem_sage.png",
+      "option": "other",
+      "type": "exclusive_emblem"
+    },
+    {
+      "id": 102,
+      "name": "Sniper Emblem",
+      "image": "emblem_sniper.png",
+      "option": "other",
+      "type": "exclusive_emblem"
+    },
+    {
+      "id": 103,
+      "name": "Warden Emblem",
+      "image": "emblem_warden.png",
+      "option": "other",
+      "type": "exclusive_emblem"
+    },
+    {
+      "id": 104,
+      "name": "Deathfire Grasp",
+      "image": "deathfiregrasp.png",
+      "option": "other",
+      "type": "artifact"
+    },
+    {
+      "id": 105,
+      "name": "Death's Defiance",
+      "image": "deathsdance.png",
+      "option": "other",
+      "type": "artifact"
+    },
+    {
+      "id": 106,
+      "name": "Diamond Hands",
+      "image": "diamondhands.png",
+      "option": "other",
+      "type": "artifact"
+    },
+    {
+      "id": 107,
+      "name": "Eternal Winter",
+      "image": "everfrost.png",
+      "option": "other",
+      "type": "artifact"
+    },
+    {
+      "id": 108,
+      "name": "Gambler's Blade",
+      "image": "gamblersblade.png",
+      "option": "other",
+      "type": "artifact"
+    },
+    {
+      "id": 109,
+      "name": "Goldmancer's Staff",
+      "image": "goldmancersstaff.png",
+      "option": "other",
+      "type": "artifact"
+    },
+    {
+      "id": 110,
+      "name": "Hullcrusher",
+      "image": "hullbreaker.png",
+      "option": "other",
+      "type": "artifact"
+    },
+    {
+      "id": 111,
+      "name": "Mogul's Mail",
+      "image": "mail.png",
+      "option": "other",
+      "type": "artifact"
+    },
+    {
+      "id": 112,
+      "name": "Manazane",
+      "image": "muramana.png",
+      "option": "other",
+      "type": "artifact"
+    },
+    {
+      "id": 113,
+      "name": "Sniper's Focus",
+      "image": "snipersfocus.png",
+      "option": "other",
+      "type": "artifact"
+    },
+    {
+      "id": 114,
+      "name": "Anima Visage",
+      "image": "spiritvisage.png",
+      "option": "other",
+      "type": "artifact"
+    },
+    {
+      "id": 115,
+      "name": "Gold Collector",
+      "image": "thecollector.png",
+      "option": "other",
+      "type": "artifact"
+    },
+    {
+      "id": 116,
+      "name": "Trickster's Glass",
+      "image": "trickstersglass.png",
+      "option": "other",
+      "type": "artifact"
+    },
+    {
+      "id": 117,
+      "name": "Infinity Force",
+      "image": "trinityforce.png",
+      "option": "other",
+      "type": "artifact"
+    },
+    {
+      "id": 118,
+      "name": "Zhonya's Paradox",
+      "image": "zhonyashourglass.png",
+      "option": "other",
+      "type": "artifact"
+    },
+    {
+      "id": 119,
+      "name": "Aegis of the Legion",
+      "image": "aegis.png",
+      "option": "other",
+      "type": "support"
+    },
+    {
+      "id": 120,
+      "name": "Banshee's Veil",
+      "image": "banshees_veil.png",
+      "option": "other",
+      "type": "support"
+    },
+    {
+      "id": 121,
+      "name": "Chalice of Power",
+      "image": "chalice_of_power.png",
+      "option": "other",
+      "type": "support"
+    },
+    {
+      "id": 122,
+      "name": "Locket of the Iron Solari",
+      "image": "locket_of_the_iron_solari.png",
+      "option": "other",
+      "type": "support"
+    },
+    {
+      "id": 123,
+      "name": "Needlessly Big Gem",
+      "image": "needlessy_large_gem.png",
+      "option": "other",
+      "type": "support"
+    },
+    {
+      "id": 124,
+      "name": "Obsidian Cleaver",
+      "image": "obsidian_cleaver.png",
+      "option": "other",
+      "type": "support"
+    },
+    {
+      "id": 125,
+      "name": "Virtue of the Martyr",
+      "image": "radiant_virtue.png",
+      "option": "other",
+      "type": "support"
+    },
+    {
+      "id": 126,
+      "name": "Randuin's Omen",
+      "image": "randuins_sanctum.png",
+      "option": "other",
+      "type": "support"
+    },
+    {
+      "id": 127,
+      "name": "Shroud of Stillness",
+      "image": "shroud_of_stillness.png",
+      "option": "other",
+      "type": "support"
+    },
+    {
+      "id": 128,
+      "name": "Zeke's Herald",
+      "image": "zekes_herald.png",
+      "option": "other",
+      "type": "support"
+    },
+    {
+      "id": 129,
+      "name": "Zephyr",
+      "image": "zephyr.png",
+      "option": "other",
+      "type": "support"
+    },
+    {
+      "id": 130,
+      "name": "Zz'Rot Portal",
+      "image": "zzrot_portal.png",
+      "option": "other",
+      "type": "support"
+    },
+    {
+      "id": 131,
+      "name": "Tattoo of Bombardment",
+      "image": "bombardment.png",
+      "option": "other",
+      "type": "inkshadow"
+    },
+    {
+      "id": 132,
+      "name": "Tattoo of Force",
+      "image": "force.png",
+      "option": "other",
+      "type": "inkshadow"
+    },
+    {
+      "id": 133,
+      "name": "Tattoo of Fury",
+      "image": "fury.png",
+      "option": "other",
+      "type": "inkshadow"
+    },
+    {
+      "id": 134,
+      "name": "Tattoo of Protection",
+      "image": "protection.png",
+      "option": "other",
+      "type": "inkshadow"
+    },
+    {
+      "id": 135,
+      "name": "Tattoo of Toxin",
+      "image": "toxin.png",
+      "option": "other",
+      "type": "inkshadow"
+    },
+    {
+      "id": 136,
+      "name": "Tattoo of Vitality",
+      "image": "vitality.png",
+      "option": "other",
+      "type": "inkshadow"
+    },
+    {
+      "id": 137,
+      "name": "Talisman of Might",
+      "image": "abilitypower1.png",
+      "option": "other",
+      "type": "storyweaver"
+    },
+    {
+      "id": 138,
+      "name": "Scroll of Force",
+      "image": "abilitypower2.png",
+      "option": "other",
+      "type": "storyweaver"
+    },
+    {
+      "id": 139,
+      "name": "Tome of Power",
+      "image": "abilitypower3.png",
+      "option": "other",
+      "type": "storyweaver"
+    },
+    {
+      "id": 140,
+      "name": "Talisman of Speed",
+      "image": "attackspeed1.png",
+      "option": "other",
+      "type": "storyweaver"
+    },
+    {
+      "id": 141,
+      "name": "Scroll of Haste",
+      "image": "attackspeed2.png",
+      "option": "other",
+      "type": "storyweaver"
+    },
+    {
+      "id": 142,
+      "name": "Tome of Swiftness",
+      "image": "attackspeed3.png",
+      "option": "other",
+      "type": "storyweaver"
+    },
+    {
+      "id": 143,
+      "name": "Talisman of Aid",
+      "image": "support1.png",
+      "option": "other",
+      "type": "storyweaver"
+    },
+    {
+      "id": 144,
+      "name": "Tome of Mending",
+      "image": "support3.png",
+      "option": "other",
+      "type": "storyweaver"
+    },
+    {
+      "id": 145,
+      "name": "ascension",
+      "image": "ascension.png",
+      "option": "other",
+      "type": "storyweaver"
+    }
+  ]

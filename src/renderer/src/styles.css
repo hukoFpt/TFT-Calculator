@@ -18,3 +18,43 @@ body {
     }
 }
   
+::-webkit-scrollbar {
+    width: 5px; 
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: rgb(39 39 42); 
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgb(241, 241, 241);
+    border-radius: 5px; 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(241, 241, 241);
+  }
+
+  .bg-hexagon::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpolygon points='50 1 95 25 95 75 50 99 5 75 5 25' style='fill:%23006cff;'/%3E%3C/svg%3E") no-repeat center center;
+    background-size: cover;
+    z-index: 10;
+  }
+  
+  .bg-gap::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpolygon points='50 1 95 25 95 75 50 99 5 75 5 25' style='fill:%23ffffff;'/%3E%3C/svg%3E") no-repeat center center;
+    background-size: cover;
+    z-index: 20;
+  }

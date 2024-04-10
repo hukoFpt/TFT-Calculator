@@ -30,6 +30,7 @@
     "postcss": "^8.4.38",
     "react-dnd": "^16.0.1",
     "react-dnd-html5-backend": "^16.0.1",
+    "react-dnd-multi-backend": "^8.0.3",
     "react-dnd-touch-backend": "^16.0.1",
     "tailwindcss": "^3.4.3"
   },

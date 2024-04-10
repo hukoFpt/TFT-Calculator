@@ -1,7 +1,5 @@
 import data from '../assets/data/champions.json'
-import DraggableChampion from './DragableChampion'
-import { DndProvider } from 'react-dnd'
-import { TouchBackend } from 'react-dnd-touch-backend';
+import DraggableChampion from './DraggableChampion'
 
 import ahriImage from '../assets/images/champions/tft11_ahri.png'
 import caitlynImage from '../assets/images/champions/tft11_caitlyn.png'
@@ -130,7 +128,7 @@ const images = {
 const ListChampion = ({ cost, className }) => {
   console.log(data)
   return (
-    <DndProvider backend={TouchBackend} options={{ enableMouseEvents: true }}>
+    <>
       <div className="1-cost flex gap-1">
         {data
           .filter(
@@ -146,12 +144,13 @@ const ListChampion = ({ cost, className }) => {
                 id={champion.id}
                 name={champion.name}
                 image={imageSrc}
+                size='60px'
                 className={className}
               />
             )
           })}
       </div>
-    </DndProvider>
+    </>
   )
 }
 
