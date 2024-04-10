@@ -25,10 +25,11 @@ const DropArea = () => {
       {droppedChampion && (
         <DraggableChampion
           {...droppedChampion}
-          className="absolute top-0 left-0"
-          style={{ height: '120px' }}
+          className="absolute top-0 left-0 z-10"
+          onDoubleClick={() => setDroppedChampion(null)}
         />
       )}
+      <div className="absolute inset-0 bg-hexagon"></div>
     </div>
   )
 }
