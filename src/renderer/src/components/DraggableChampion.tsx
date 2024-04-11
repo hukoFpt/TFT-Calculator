@@ -6,10 +6,11 @@ type DraggableChampionProps = {
   id: number
   name: string
   image: string
+  traits: string[]
   className: string
   size: string
-  onDragEnd?: () => void
-  onDoubleClick?: () => void
+  onDragEnd?: (id) => void
+  onDoubleClick?: (id) => void
 }
 
 const DraggableChampion: React.FC<DraggableChampionProps> = ({
@@ -17,19 +18,21 @@ const DraggableChampion: React.FC<DraggableChampionProps> = ({
   name,
   image,
   size,
+  traits,
   className,
   onDragEnd,
   onDoubleClick
 }) => {
+  console.log(traits);
   const [{ isDragging }, drag, preview] = useDrag(() => ({
     type: 'champion',
-    item: { id, name, image },
+    item: { id, name, image, traits},
     collect: (monitor) => ({
       isDragging: !!monitor.isDragging()
     }),
     end: (_, monitor) => {
       if (!monitor.didDrop() && onDragEnd) {
-        onDragEnd()
+        onDragEnd(id)
       }
     }
   }))
@@ -43,7 +46,11 @@ const DraggableChampion: React.FC<DraggableChampionProps> = ({
       ref={drag}
       className={`${className} ${isDragging ? 'dragging' : ''}`}
       style={{ opacity: isDragging ? 0.5 : 1 }}
-      onDoubleClick={onDoubleClick}
+      onDoubleClick={() => {
+        if (onDoubleClick) {
+          onDoubleClick(id);
+        }
+      }}
     >
       <img src={image} alt={name} style={{ height: size }} />
     </div>

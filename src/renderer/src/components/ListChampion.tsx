@@ -132,23 +132,37 @@ const ListChampion = ({ cost, className }) => {
       <div className="1-cost flex gap-1">
         {data
           .filter(
-            (champion: { id: number; name: string; cost: number; image: string }) =>
-              champion.cost === cost
+            (champion: {
+              id: number
+              name: string
+              cost: number
+              traits: string[]
+              image: string
+            }) => champion.cost === cost
           )
-          .map((champion: { id: number; name: string; cost: number; image: string }) => {
-            const imageSrc = images[champion.id]
-            console.log(imageSrc)
-            return (
-              <DraggableChampion
-                key={champion.id}
-                id={champion.id}
-                name={champion.name}
-                image={imageSrc}
-                size='60px'
-                className={className}
-              />
-            )
-          })}
+          .map(
+            (champion: {
+              id: number
+              name: string
+              cost: number
+              traits: string[]
+              image: string
+            }) => {
+              const imageSrc = images[champion.id]
+              console.log(champion.traits)
+              return (
+                <DraggableChampion
+                  key={champion.id}
+                  id={champion.id}
+                  name={champion.name}
+                  traits={champion.traits}
+                  image={imageSrc}
+                  size="60px"
+                  className={className}
+                />
+              )
+            }
+          )}
       </div>
     </>
   )

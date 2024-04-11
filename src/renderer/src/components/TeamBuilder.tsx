@@ -7,6 +7,7 @@ import TeamEffect from './TeamEffect'
 import Trait from './Trait'
 
 const TeamBuilder = () => {
+  const [champions, setChampions] = useState([])
   const [option, setOption] = useState('component')
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setOption(e.target.value)
@@ -38,8 +39,8 @@ const TeamBuilder = () => {
       </div>
       <div className="flex flex-col gap-2 bg-bgr rounded-xl p-2 mt-2 justify-between">
         <div className="flex h-[420px]">
-          <Trait />
-          <Composition />
+          <Trait champions={champions} />
+          <Composition setChampions={setChampions} />
           <div className="w-1/12">
             <TeamEffect />
             <Augment />

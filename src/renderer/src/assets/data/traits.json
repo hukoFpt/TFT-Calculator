@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": "dragonlord",
     "name": "Dragonlord",
     "active": [
       { "min": 1, "max": 1, "bonus": "dragonlord_bonus0", "image": "dragonlord_blank" },
@@ -11,7 +11,7 @@
     ]
   },
   {
-    "id": 2,
+    "id": "dryad",
     "name": "Dryad",
     "active": [
       { "min": 1, "max": 1, "bonus": "dryad_bonus0", "image": "dryad_blank" },
@@ -21,7 +21,7 @@
     ]
   },
   {
-    "id": 3,
+    "id": "fated",
     "name": "Fated",
     "active": [
       { "min": 1, "max": 2, "bonus": "fated_bonus0", "image": "fated_blank" },
@@ -32,7 +32,7 @@
     ]
   },
   {
-    "id": 4,
+    "id": "fortune",
     "name": "Fortune",
     "active": [
       { "min": 1, "max": 2, "bonus": "fortune_bonus0", "image": "fortune_blank" },
@@ -42,7 +42,7 @@
     ]
   },
   {
-    "id": 5,
+    "id": "ghostly",
     "name": "Ghostly",
     "active": [
       { "min": 1, "max": 1, "bonus": "ghostly_bonus0", "image": "ghostly_blank" },
@@ -53,14 +53,212 @@
     ]
   },
   {
-    "id": 6,
+    "id": "heavenly",
     "name": "Heavenly",
-    "active":[
+    "active": [
       { "min": 1, "max": 1, "bonus": "heavenly_bonus0", "image": "heavenly_blank" },
       { "min": 2, "max": 2, "bonus": "heavenly_bonus1", "image": "heavenly_bronze" },
       { "min": 3, "max": 3, "bonus": "heavenly_bonus2", "image": "heavenly_silver" },
       { "min": 4, "max": 4, "bonus": "heavenly_bonus3", "image": "heavenly_silver" },
-      { "min": 5, "max": null, "bonus": "heavenly_bonus4", "image": "heavenly_gold" }
+      { "min": 5, "max": 5, "bonus": "heavenly_bonus4", "image": "heavenly_silver" },
+      { "min": 6, "max": 6, "bonus": "heavenly_bonus5", "image": "heavenly_gold" },
+      { "min": 7, "max": null, "bonus": "heavenly_bonus6", "image": "heavenly_gold" }
+    ]
+  },
+  {
+    "id": "inkshadow",
+    "name": "Inkshadow",
+    "active": [
+      { "min": 1, "max": 2, "bonus": "inkshadow_bonus0", "image": "inkshadow_blank" },
+      { "min": 3, "max": 4, "bonus": "inkshadow_bonus1", "image": "inkshadow_bronze" },
+      { "min": 5, "max": 6, "bonus": "inkshadow_bonus2", "image": "inkshadow_silver" },
+      { "min": 7, "max": null, "bonus": "inkshadow_bonus3", "image": "inkshadow_gold" }
+    ]
+  },
+  {
+    "id": "mythic",
+    "name": "Mythic",
+    "active": [
+      { "min": 1, "max": 2, "bonus": "mythic_bonus0", "image": "mythic_blank" },
+      { "min": 3, "max": 4, "bonus": "mythic_bonus1", "image": "mythic_bronze" },
+      { "min": 5, "max": 6, "bonus": "mythic_bonus2", "image": "inkshadow_silver" },
+      { "min": 7, "max": 9, "bonus": "mythic_bonus3", "image": "mythic_gold" },
+      { "min": 10, "max": null, "bonus": "mythic_bonus4", "image": "mythic_prismatic" }
+    ]
+  },
+  {
+    "id": "porcelain",
+    "name": "Porcelain",
+    "active": [
+      { "min": 1, "max": 1, "bonus": "porcelain_bonus0", "image": "porcelain_blank" },
+      { "min": 2, "max": 3, "bonus": "porcelain_bonus1", "image": "porcelain_bronze" },
+      { "min": 4, "max": 5, "bonus": "porcelain_bonus2", "image": "porcelain_gold" },
+      { "min": 6, "max": null, "bonus": "porcelain_bonus3", "image": "porcelain_gold" }
+    ]
+  },
+  {
+    "id": "storyweaver",
+    "name": "Storyweaver",
+    "active": [
+      { "min": 1, "max": 2, "bonus": "storyweaver_bonus0", "image": "storyweaver_blank" },
+      { "min": 3, "max": 4, "bonus": "storyweaver_bonus1", "image": "storyweaver_bronze" },
+      { "min": 5, "max": 6, "bonus": "storyweaver_bonus2", "image": "storyweaver_silver" },
+      { "min": 7, "max": 9, "bonus": "storyweaver_bonus3", "image": "storyweaver_gold" },
+      { "min": 10, "max": null, "bonus": "storyweaver_bonus4", "image": "storyweaver_prismatic" }
+    ]
+  },
+  {
+    "id": "umbral",
+    "name": "Umbral",
+    "active": [
+      { "min": 1, "max": 1, "bonus": "umbral_bonus0", "image": "umbral_blank" },
+      { "min": 2, "max": 3, "bonus": "umbral_bonus1", "image": "umbral_bronze" },
+      { "min": 4, "max": 5, "bonus": "umbral_bonus2", "image": "umbral_silver" },
+      { "min": 6, "max": 8, "bonus": "umbral_bonus3", "image": "umbral_gold" },
+      { "min": 9, "max": null, "bonus": "umbral_bonus4", "image": "umbral_prismatic" }
+    ]
+  },
+  {
+    "id": "altruist",
+    "name": "Altruist",
+    "active": [
+      { "min": 1, "max": 1, "bonus": "altruist_bonus0", "image": "altruist_blank" },
+      { "min": 2, "max": 2, "bonus": "altruist_bonus1", "image": "altruist_bronze" },
+      { "min": 3, "max": 3, "bonus": "altruist_bonus2", "image": "altruist_silver" },
+      { "min": 4, "max": null, "bonus": "altruist_bonus3", "image": "altruist_gold" }
+    ]
+  },
+  {
+    "id": "arcanist",
+    "name": "Arcanist",
+    "active": [
+      { "min": 1, "max": 1, "bonus": "arcanist_bonus0", "image": "arcanist_blank" },
+      { "min": 2, "max": 3, "bonus": "arcanist_bonus1", "image": "arcanist_bronze" },
+      { "min": 4, "max": 5, "bonus": "arcanist_bonus2", "image": "arcanist_silver" },
+      { "min": 6, "max": 7, "bonus": "arcanist_bonus3", "image": "arcanist_gold" },
+      { "min": 8, "max": null, "bonus": "arcanist_bonus4", "image": "arcanist_gold" }
+    ]
+  },
+  {
+    "id": "artist",
+    "name": "Artist",
+    "active": [{ "min": 1, "max": 1, "bonus": "artist_bonus", "image": "artist_exclusive" }]
+  },
+  {
+    "id": "behemoth",
+    "name": "Behemoth",
+    "active": [
+      { "min": 1, "max": 1, "bonus": "behemoth_bonus0", "image": "behemoth_blank" },
+      { "min": 2, "max": 3, "bonus": "behemoth_bonus1", "image": "behemoth_bronze" },
+      { "min": 4, "max": 5, "bonus": "behemoth_bonus2", "image": "behemoth_silver" },
+      { "min": 6, "max": null, "bonus": "behemoth_bonus3", "image": "behemoth_gold" }
+    ]
+  },
+  {
+    "id": "bruiser",
+    "name": "Bruiser",
+    "active": [
+      { "min": 1, "max": 2, "bonus": "bruiser_bonus0", "image": "bruiser_blank" },
+      { "min": 2, "max": 3, "bonus": "bruiser_bonus1", "image": "bruiser_bronze" },
+      { "min": 4, "max": 5, "bonus": "bruiser_bonus2", "image": "bruiser_silver" },
+      { "min": 6, "max": 7, "bonus": "bruiser_bonus3", "image": "bruiser_silver" },
+      { "min": 8, "max": null, "bonus": "bruiser_bonus3", "image": "bruiser_gold" }
+    ]
+  },
+  {
+    "id": "duelist",
+    "name": "Duelist",
+    "active": [
+      { "min": 1, "max": 2, "bonus": "duelist_bonus0", "image": "duelist_blank" },
+      { "min": 2, "max": 3, "bonus": "duelist_bonus1", "image": "duelist_bronze" },
+      { "min": 4, "max": 5, "bonus": "duelist_bonus2", "image": "duelist_silver" },
+      { "min": 6, "max": 7, "bonus": "duelistr_bonus3", "image": "duelist_gold" },
+      { "min": 8, "max": null, "bonus": "duelist_bonus3", "image": "duelist_gold" }
+    ]
+  },
+  {
+    "id": "exalted",
+    "name": "Exalted",
+    "active": [
+      { "min": 1, "max": 2, "bonus": "exalted_bonus0", "image": "exalted_blank" },
+      { "min": 3, "max": 4, "bonus": "exalted_bonus1", "image": "exalted_silver" },
+      { "min": 5, "max": null, "bonus": "exalted_bonus2", "image": "exalted_gold" }
+    ]
+  },
+  {
+    "id": "great",
+    "name": "Great",
+    "active": [{ "min": 1, "max": 1, "bonus": "great_bonus", "image": "great_exclusive" }]
+  },
+  {
+    "id": "invoker",
+    "name": "Invoker",
+    "active": [
+      { "min": 1, "max": 1, "bonus": "invoker_bonus0", "image": "invoker_blank" },
+      { "min": 2, "max": 3, "bonus": "invoker_bonus1", "image": "invoker_bronze" },
+      { "min": 4, "max": 5, "bonus": "invoker_bonus2", "image": "invoker_silver" },
+      { "min": 6, "max": null, "bonus": "invoker_bonus3", "image": "invoker_gold" }
+    ]
+  },
+  {
+    "id": "lover",
+    "name": "Lover",
+    "active": [{ "min": 1, "max": 1, "bonus": "lover_bonus", "image": "lover_exclusive" }]
+  },
+  {
+    "id": "reaper",
+    "name": "Reaper",
+    "active": [
+      { "min": 1, "max": 1, "bonus": "reaper_bonus0", "image": "reaper_blank" },
+      { "min": 2, "max": 3, "bonus": "reaper_bonus1", "image": "reaper_bronze" },
+      { "min": 4, "max": null, "bonus": "reaper_bonus2", "image": "reaper_gold" }
+    ]
+  },
+  {
+    "id": "sage",
+    "name": "Sage",
+    "active": [
+      { "min": 1, "max": 1, "bonus": "sage_bonus0", "image": "sage_blank" },
+      { "min": 2, "max": 2, "bonus": "sage_bonus1", "image": "sage_bronze" },
+      { "min": 3, "max": 3, "bonus": "sage_bonus2", "image": "sage_silver" },
+      { "min": 4, "max": 4, "bonus": "sage_bonus3", "image": "sage_gold" },
+      { "min": 5, "max": null, "bonus": "sage_bonus4", "image": "sage_gold" }
+    ]
+  },
+  {
+    "id": "sniper",
+    "name": "Sniper",
+    "active": [
+      { "min": 1, "max": 1, "bonus": "sniper_bonus0", "image": "sniper_blank" },
+      { "min": 2, "max": 3, "bonus": "sniper_bonus1", "image": "sniper_bronze" },
+      { "min": 4, "max": 5, "bonus": "sniper_bonus2", "image": "sniper_silver" },
+      { "min": 6, "max": null, "bonus": "sniper_bonus3", "image": "sniper_gold" }
+    ]
+  },
+  {
+    "id": "spiritwalker",
+    "name": "Spirit Walker",
+    "active": [
+      { "min": 1, "max": 1, "bonus": "spiritwalker_bonus", "image": "spiritwalker_exclusive" }
+    ]
+  },
+  {
+    "id": "trickshot",
+    "name": "Trickshot",
+    "active": [
+      { "min": 1, "max": 1, "bonus": "trickshot_bonus0", "image": "trickshot_blank" },
+      { "min": 2, "max": 3, "bonus": "trickshot_bonus1", "image": "trickshot_bronze" },
+      { "min": 4, "max": null, "bonus": "trickshot_bonus2", "image": "trickshot_gold" }
+    ]
+  },
+  {
+    "id": "warden",
+    "name": "Warden",
+    "active": [
+      { "min": 1, "max": 1, "bonus": "warden_bonus0", "image": "warden_blank" },
+      { "min": 2, "max": 3, "bonus": "warden_bonus1", "image": "warden_bronze" },
+      { "min": 4, "max": 5, "bonus": "warden_bonus2", "image": "warden_silver" },
+      { "min": 6, "max": null, "bonus": "warden_bonus3", "image": "warden_gold" }
     ]
   }
 ]
