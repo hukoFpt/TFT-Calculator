@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "name": "Dragonlord",
+    "active": [
+      { "min": 1, "max": 1, "bonus": "dragonlord_bonus0", "image": "dragonlord_blank" },
+      { "min": 2, "max": 2, "bonus": "dragonlord_bonus1", "image": "dragonlord_bronze" },
+      { "min": 3, "max": 3, "bonus": "dragonlord_bonus2", "image": "dragonlord_silver" },
+      { "min": 4, "max": 4, "bonus": "dragonlord_bonus3", "image": "dragonlord_silver" },
+      { "min": 5, "max": null, "bonus": "dragonlord_bonus4", "image": "dragonlord_gold" }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Dryad",
+    "active": [
+      { "min": 1, "max": 1, "bonus": "dryad_bonus0", "image": "dryad_blank" },
+      { "min": 2, "max": 3, "bonus": "dryad_bonus1", "image": "dryad_bronze" },
+      { "min": 4, "max": 5, "bonus": "dryad_bonus2", "image": "dryad_silver" },
+      { "min": 6, "max": null, "bonus": "dryad_bonus3", "image": "dryad_gold" }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Fated",
+    "active": [
+      { "min": 1, "max": 2, "bonus": "fated_bonus0", "image": "fated_blank" },
+      { "min": 3, "max": 4, "bonus": "fated_bonus1", "image": "fated_bronze" },
+      { "min": 5, "max": 6, "bonus": "fated_bonus2", "image": "fated_silver" },
+      { "min": 7, "max": 9, "bonus": "fated_bonus3", "image": "fated_gold" },
+      { "min": 10, "max": null, "bonus": "fated_bonus4", "image": "fated_prismatic" }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Fortune",
+    "active": [
+      { "min": 1, "max": 2, "bonus": "fortune_bonus0", "image": "fortune_blank" },
+      { "min": 3, "max": 4, "bonus": "fortune_bonus1", "image": "fortune_bronze" },
+      { "min": 5, "max": 6, "bonus": "fortune_bonus2", "image": "fortune_silver" },
+      { "min": 7, "max": null, "bonus": "fortune_bonus3", "image": "fortune_gold" }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Ghostly",
+    "active": [
+      { "min": 1, "max": 1, "bonus": "ghostly_bonus0", "image": "ghostly_blank" },
+      { "min": 2, "max": 3, "bonus": "ghostly_bonus1", "image": "ghostly_bronze" },
+      { "min": 4, "max": 5, "bonus": "ghostly_bonus2", "image": "ghostly_silver" },
+      { "min": 6, "max": 7, "bonus": "ghostly_bonus3", "image": "ghostly_gold" },
+      { "min": 8, "max": null, "bonus": "ghostly_bonus4", "image": "ghostly_gold" }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Heavenly",
+    "active":[
+      { "min": 1, "max": 1, "bonus": "heavenly_bonus0", "image": "heavenly_blank" },
+      { "min": 2, "max": 2, "bonus": "heavenly_bonus1", "image": "heavenly_bronze" },
+      { "min": 3, "max": 3, "bonus": "heavenly_bonus2", "image": "heavenly_silver" },
+      { "min": 4, "max": 4, "bonus": "heavenly_bonus3", "image": "heavenly_silver" },
+      { "min": 5, "max": null, "bonus": "heavenly_bonus4", "image": "heavenly_gold" }
+    ]
+  }
+]

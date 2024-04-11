@@ -1,362 +1,429 @@
 [
-    {
-      "id": 1,
-      "name": "Ahri",
-      "cost": 1,
-      "image": "ahriImage"
-    },
-    {
-      "id": 2,
-      "name": "Caitlyn",
-      "cost": 1,
-      "image": "caitlynImage"
-    },
-    {
-      "id": 3,
-      "name": "Cho'Gath",
-      "cost": 1,
-      "image": "chogathImage"
-    },
-    {
-      "id": 4,
-      "name": "Darius",
-      "cost": 1,
-      "image": "dariusImage"
-    },
-    {
-      "id": 5,
-      "name": "Garen",
-      "cost": 1,
-      "image": "garenImage"
-    },
-    {
-      "id": 6,
-      "name": "Jax",
-      "cost": 1,
-      "image": "jaxImage"
-    },
-    {
-      "id": 7,
-      "name": "Kha'zix",
-      "cost": 1,
-      "image": "khazixImage"
-    },
-    {
-      "id": 8,
-      "name": "Kobuko",
-      "cost": 1,
-      "image": "kobukoImage"
-    },
-    {
-      "id": 9,
-      "name": "Kog'Maw",
-      "cost": 1,
-      "image": "kogmawImage"
-    },
-    {
-      "id": 10,
-      "name": "Malphite",
-      "cost": 1,
-      "image": "malphiteImage"
-    },
-    {
-      "id": 11,
-      "name": "Rek'Sai",
-      "cost": 1,
-      "image": "reksaiImage"
-    },
-    {
-      "id": 12,
-      "name": "Sivir",
-      "cost": 1,
-      "image": "sivirImage"
-    },
-    {
-      "id": 13,
-      "name": "Yasuo",
-      "cost": 1,
-      "image": "yasuoImage"
-    },
-    {
-      "id": 14,
-      "name": "Aatrox",
-      "cost": 2,
-      "image": "aatroxImage"
-    },
-    {
-      "id": 15,
-      "name": "Gnar",
-      "cost": 2,
-      "image": "gnarImage"
-    },
-    {
-      "id": 16,
-      "name": "Janna",
-      "cost": 2,
-      "image": "jannaImage"
-    },
-    {
-      "id": 17,
-      "name": "Kindred",
-      "cost": 2,
-      "image": "kindredImage"
-    },
-    {
-      "id": 18,
-      "name": "Lux",
-      "cost": 2,
-      "image": "luxImage"
-    },
-    {
-      "id": 19,
-      "name": "Neeko",
-      "cost": 2,
-      "image": "neekoImage"
-    },
-    {
-      "id": 20,
-      "name": "Qiyana",
-      "cost": 2,
-      "image": "qiyanaImage"
-    },
-    {
-      "id": 21,
-      "name": "Riven",
-      "cost": 2,
-      "image": "rivenImage"
-    },
-    {
-      "id": 22,
-      "name": "Senna",
-      "cost": 2,
-      "image": "sennaImage"
-    },
-    {
-      "id": 23,
-      "name": "Shen",
-      "cost": 2,
-      "image": "shenImage"
-    },
-    {
-      "id": 24,
-      "name": "Teemo",
-      "cost": 2,
-      "image": "teemoImage"
-    },
-    {
-      "id": 25,
-      "name": "Yorick",
-      "cost": 2,
-      "image": "yorickImage"
-    },
-    {
-      "id": 26,
-      "name": "Zyra",
-      "cost": 2,
-      "image": "zyraImage"
-    },
-    {
-      "id": 27,
-      "name": "Alune",
-      "cost": 3,
-      "image": "aluneImage"
-    },
-    {
-      "id": 28,
-      "name": "Amumu",
-      "cost": 3,
-      "image": "amumuImage"
-    },
-    {
-      "id": 29,
-      "name": "Aphelios",
-      "cost": 3,
-      "image": "apheliosImage"
-    },
-    {
-      "id": 30,
-      "name": "Bard",
-      "cost": 3,
-      "image": "bardImage"
-    },
-    {
-      "id": 31,
-      "name": "Diana",
-      "cost": 3,
-      "image": "dianaImage"
-    },
-    {
-      "id": 32,
-      "name": "Illaoi",
-      "cost": 3,
-      "image": "illaoiImage"
-    },
-    {
-      "id": 33,
-      "name": "Soraka",
-      "cost": 3,
-      "image": "sorakaImage"
-    },
-    {
-      "id": 34,
-      "name": "Tahm Kench",
-      "cost": 3,
-      "image": "tahmkenchImage"
-    },
-    {
-      "id": 35,
-      "name": "Thresh",
-      "cost": 3,
-      "image": "threshImage"
-    },
-    {
-      "id": 36,
-      "name": "Tristana",
-      "cost": 3,
-      "image": "tristanaImage"
-    },
-    {
-      "id": 37,
-      "name": "Volibear",
-      "cost": 3,
-      "image": "volibearImage"
-    },
-    {
-      "id": 38,
-      "name": "Yone",
-      "cost": 3,
-      "image": "yoneImage"
-    },
-    {
-      "id": 39,
-      "name": "Zoe",
-      "cost": 3,
-      "image": "zoeImage"
-    },
-    {
-      "id": 40,
-      "name": "Annie",
-      "cost": 4,
-      "image": "annieImage"
-    },
-    {
-      "id": 41,
-      "name": "Ashe",
-      "cost": 4,
-      "image": "asheImage"
-    },
-    {
-      "id": 42,
-      "name": "Galio",
-      "cost": 4,
-      "image": "galioImage"
-    },
-    {
-      "id": 43,
-      "name": "Kai'Sa",
-      "cost": 4,
-      "image": "kaisaImage"
-    },
-    {
-      "id": 44,
-      "name": "Kayn",
-      "cost": 4,
-      "image": "kaynImage"
-    },
-    {
-      "id": 45,
-      "name": "Lee Sin",
-      "cost": 4,
-      "image": "leesinImage"
-    },
-    {
-      "id": 46,
-      "name": "Lillia",
-      "cost": 4,
-      "image": "lilliaImage"
-    },
-    {
-      "id": 47,
-      "name": "Morgana",
-      "cost": 4,
-      "image": "morganaImage"
-    },
-    {
-      "id": 48,
-      "name": "Nautilus",
-      "cost": 4,
-      "image": "nautilusImage"
-    },
-    {
-      "id": 49,
-      "name": "Ornn",
-      "cost": 4,
-      "image": "ornnImage"
-    },
-    {
-      "id": 50,
-      "name": "Sylas",
-      "cost": 4,
-      "image": "sylasImage"
-    },
-    {
-      "id": 51,
-      "name": "Syndra",
-      "cost": 4,
-      "image": "syndraImage"
-    },
-    {
-      "id": 52,
-      "name": "Azir",
-      "cost": 5,
-      "image": "azirImage"
-    },
-    {
-      "id": 53,
-      "name": "Hwei",
-      "cost": 5,
-      "image": "hweiImage"
-    },
-    {
-      "id": 54,
-      "name": "Irelia",
-      "cost": 5,
-      "image": "ireliaImage"
-    },
-    {
-      "id": 55,
-      "name": "Lissandra",
-      "cost": 5,
-      "image": "lissandraImage"
-    },
-    {
-      "id": 56,
-      "name": "Rakan",
-      "cost": 5,
-      "image": "rakanImage"
-    },
-    {
-      "id": 57,
-      "name": "Sett",
-      "cost": 5,
-      "image": "settImage"
-    },
-    {
-      "id": 58,
-      "name": "Udyr",
-      "cost": 5,
-      "image": "udyrImage"
-    },
-    {
-      "id": 59,
-      "name": "Wukong",
-      "cost": 5,
-      "image": "wukongImage"
-    },
-    {
-      "id": 60,
-      "name": "Xayah",
-      "cost": 5,
-      "image": "xayahImage"
-    }
-  ]
+  {
+    "id": 1,
+    "name": "Ahri",
+    "cost": 1,
+    "image": "ahriImage",
+    "traits": ["fated", "arcanist"]
+  },
+  {
+    "id": 2,
+    "name": "Caitlyn",
+    "cost": 1,
+    "image": "caitlynImage",
+    "traits": ["ghostly", "sniper"]
+  },
+  {
+    "id": 3,
+    "name": "Cho'Gath",
+    "cost": 1,
+    "image": "chogathImage",
+    "traits": ["mythic", "behemoth"]
+  },
+  {
+    "id": 4,
+    "name": "Darius",
+    "cost": 1,
+    "image": "dariusImage",
+    "traits": ["umbral", "duelist"]
+  },
+  {
+    "id": 5,
+    "name": "Garen",
+    "cost": 1,
+    "image": "garenImage",
+    "traits": ["storyweaver", "warden"]
+  },
+  {
+    "id": 6,
+    "name": "Jax",
+    "cost": 1,
+    "image": "jaxImage",
+    "traits": ["inkshadow", "warden"]
+  },
+  {
+    "id": 7,
+    "name": "Kha'zix",
+    "cost": 1,
+    "image": "khazixImage",
+    "traits": ["heavenly", "reaper"]
+  },
+  {
+    "id": 8,
+    "name": "Kobuko",
+    "cost": 1,
+    "image": "kobukoImage",
+    "traits": ["fortune", "bruiser"]
+  },
+  {
+    "id": 9,
+    "name": "Kog'Maw",
+    "cost": 1,
+    "image": "kogmawImage",
+    "traits": ["mythic", "invoker", "sniper"]
+  },
+  {
+    "id": 10,
+    "name": "Malphite",
+    "cost": 1,
+    "image": "malphiteImage",
+    "traits": ["heavenly", "behemoth"]
+  },
+  {
+    "id": 11,
+    "name": "Rek'Sai",
+    "cost": 1,
+    "image": "reksaiImage",
+    "traits": ["dryad", "bruiser"]
+  },
+  {
+    "id": 12,
+    "name": "Sivir",
+    "cost": 1,
+    "image": "sivirImage",
+    "traits": ["storyweaver", "trickshot"]
+  },
+  {
+    "id": 13,
+    "name": "Yasuo",
+    "cost": 1,
+    "image": "yasuoImage",
+    "traits": ["fated", "duelist"]
+  },
+  {
+    "id": 14,
+    "name": "Aatrox",
+    "cost": 2,
+    "image": "aatroxImage",
+    "traits": ["ghostly", "inkshadow", "bruiser"]
+  },
+  {
+    "id": 15,
+    "name": "Gnar",
+    "cost": 2,
+    "image": "gnarImage",
+    "traits": ["dryad", "warden"]
+  },
+  {
+    "id": 16,
+    "name": "Janna",
+    "cost": 2,
+    "image": "jannaImage",
+    "traits": ["dragonlord", "invoker"]
+  },
+  {
+    "id": 17,
+    "name": "Kindred",
+    "cost": 2,
+    "image": "kindredImage",
+    "traits": ["dryad", "reaper"]
+  },
+  {
+    "id": 18,
+    "name": "Lux",
+    "cost": 2,
+    "image": "luxImage",
+    "traits": ["porcelain", "arcanist"]
+  },
+  {
+    "id": 19,
+    "name": "Neeko",
+    "cost": 2,
+    "image": "neekoImage",
+    "traits": ["heavenly", "mythic", "arcanist"]
+  },
+  {
+    "id": 20,
+    "name": "Qiyana",
+    "cost": 2,
+    "image": "qiyanaImage",
+    "traits": ["heavenly", "duelist"]
+  },
+  {
+    "id": 21,
+    "name": "Riven",
+    "cost": 2,
+    "image": "rivenImage",
+    "traits": ["storyweaver", "altruist", "bruiser"]
+  },
+  {
+    "id": 22,
+    "name": "Senna",
+    "cost": 2,
+    "image": "sennaImage",
+    "traits": ["inkshadow", "sniper"]
+  },
+  {
+    "id": 23,
+    "name": "Shen",
+    "cost": 2,
+    "image": "shenImage",
+    "traits": ["ghostly", "behemoth"]
+  },
+  {
+    "id": 24,
+    "name": "Teemo",
+    "cost": 2,
+    "image": "teemoImage",
+    "traits": ["fortune", "trickshot"]
+  },
+  {
+    "id": 25,
+    "name": "Yorick",
+    "cost": 2,
+    "image": "yorickImage",
+    "traits": ["umbral", "behemoth"]
+  },
+  {
+    "id": 26,
+    "name": "Zyra",
+    "cost": 2,
+    "image": "zyraImage",
+    "traits": ["storyweaver", "sage"]
+  },
+  {
+    "id": 27,
+    "name": "Alune",
+    "cost": 3,
+    "image": "aluneImage",
+    "traits": ["umbral", "invoker"]
+  },
+  {
+    "id": 28,
+    "name": "Amumu",
+    "cost": 3,
+    "image": "amumuImage",
+    "traits": ["porcelain", "warden"]
+  },
+  {
+    "id": 29,
+    "name": "Aphelios",
+    "cost": 3,
+    "image": "apheliosImage",
+    "traits": ["fated", "sniper"]
+  },
+  {
+    "id": 30,
+    "name": "Bard",
+    "cost": 3,
+    "image": "bardImage",
+    "traits": ["mythic", "trickshot"]
+  },
+  {
+    "id": 31,
+    "name": "Diana",
+    "cost": 3,
+    "image": "dianaImage",
+    "traits": ["dragonlord", "sage"]
+  },
+  {
+    "id": 32,
+    "name": "Illaoi",
+    "cost": 3,
+    "image": "illaoiImage",
+    "traits": ["ghostly", "arcanist", "warden"]
+  },
+  {
+    "id": 33,
+    "name": "Soraka",
+    "cost": 3,
+    "image": "sorakaImage",
+    "traits": ["heavenly", "altruist"]
+  },
+  {
+    "id": 34,
+    "name": "Tahm Kench",
+    "cost": 3,
+    "image": "tahmkenchImage",
+    "traits": ["mythic", "bruiser"]
+  },
+  {
+    "id": 35,
+    "name": "Thresh",
+    "cost": 3,
+    "image": "threshImage",
+    "traits": ["fated", "behemoth"]
+  },
+  {
+    "id": 36,
+    "name": "Tristana",
+    "cost": 3,
+    "image": "tristanaImage",
+    "traits": ["fortune", "duelist"]
+  },
+  {
+    "id": 37,
+    "name": "Volibear",
+    "cost": 3,
+    "image": "volibearImage",
+    "traits": ["inkshadow", "duelist"]
+  },
+  {
+    "id": 38,
+    "name": "Yone",
+    "cost": 3,
+    "image": "yoneImage",
+    "traits": ["umbral", "reaper"]
+  },
+  {
+    "id": 39,
+    "name": "Zoe",
+    "cost": 3,
+    "image": "zoeImage",
+    "traits": ["fortune", "storyweaver", "arcanist"]
+  },
+  {
+    "id": 40,
+    "name": "Annie",
+    "cost": 4,
+    "image": "annieImage",
+    "traits": ["fortune", "invoker"]
+  },
+  {
+    "id": 41,
+    "name": "Ashe",
+    "cost": 4,
+    "image": "asheImage",
+    "traits": ["porcelain", "sniper"]
+  },
+  {
+    "id": 42,
+    "name": "Galio",
+    "cost": 4,
+    "image": "galioImage",
+    "traits": ["storyweaver", "bruiser"]
+  },
+  {
+    "id": 43,
+    "name": "Kai'Sa",
+    "cost": 4,
+    "image": "kaisaImage",
+    "traits": ["inkshadow", "trickshot"]
+  },
+  {
+    "id": 44,
+    "name": "Kayn",
+    "cost": 4,
+    "image": "kaynImage",
+    "traits": ["ghostly", "reaper"]
+  },
+  {
+    "id": 45,
+    "name": "Lee Sin",
+    "cost": 4,
+    "image": "leesinImage",
+    "traits": ["dragonlord", "duelist"]
+  },
+  {
+    "id": 46,
+    "name": "Lillia",
+    "cost": 4,
+    "image": "lilliaImage",
+    "traits": ["mythic", "invoker"]
+  },
+  {
+    "id": 47,
+    "name": "Morgana",
+    "cost": 4,
+    "image": "morganaImage",
+    "traits": ["ghostly", "sage"]
+  },
+  {
+    "id": 48,
+    "name": "Nautilus",
+    "cost": 4,
+    "image": "nautilusImage",
+    "traits": ["mythic", "warden"]
+  },
+  {
+    "id": 49,
+    "name": "Ornn",
+    "cost": 4,
+    "image": "ornnImage",
+    "traits": ["dryad", "behemoth"]
+  },
+  {
+    "id": 50,
+    "name": "Sylas",
+    "cost": 4,
+    "image": "sylasImage",
+    "traits": ["umbral", "bruiser"]
+  },
+  {
+    "id": 51,
+    "name": "Syndra",
+    "cost": 4,
+    "image": "syndraImage",
+    "traits": ["fated", "arcanist"]
+  },
+  {
+    "id": 52,
+    "name": "Azir",
+    "cost": 5,
+    "image": "azirImage",
+    "traits": ["dryad", "invoker"]
+  },
+  {
+    "id": 53,
+    "name": "Hwei",
+    "cost": 5,
+    "image": "hweiImage",
+    "traits": ["mythic", "artist"]
+  },
+  {
+    "id": 54,
+    "name": "Irelia",
+    "cost": 5,
+    "image": "ireliaImage",
+    "traits": ["storyweaver", "duelist"]
+  },
+  {
+    "id": 55,
+    "name": "Lissandra",
+    "cost": 5,
+    "image": "lissandraImage",
+    "traits": ["porcelain", "arcanist"]
+  },
+  {
+    "id": 56,
+    "name": "Rakan",
+    "cost": 5,
+    "image": "rakanImage",
+    "traits": ["dragonlord", "altruist", "lover"]
+  },
+  {
+    "id": 57,
+    "name": "Sett",
+    "cost": 5,
+    "image": "settImage",
+    "traits": ["fated", "umbral", "warden"]
+  },
+  {
+    "id": 58,
+    "name": "Udyr",
+    "cost": 5,
+    "image": "udyrImage",
+    "traits": ["inkshadow", "behemoth", "spiritwalker"]
+  },
+  {
+    "id": 59,
+    "name": "Wukong",
+    "cost": 5,
+    "image": "wukongImage",
+    "traits": ["heavenly", "great", "sage"]
+  },
+  {
+    "id": 60,
+    "name": "Xayah",
+    "cost": 5,
+    "image": "xayahImage",
+    "traits": ["dragonlord", "lover", "trickshot"]
+  },
+  {
+    "id": 61,
+    "name": "Kayle",
+    "cost": 0,
+    "image": "kayleImage",
+    "traits": []
+  }
+]

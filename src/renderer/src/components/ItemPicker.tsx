@@ -7,8 +7,8 @@ const ItemPicker = () => {
     setOption(e.target.value)
   }
   return (
-    <div className="w-2/6 p-2 bg-zinc-800 rounded-md border border-zinc-600">
-      <div className="text-center font-semibold border-b-1 border-zinc-600">Item</div>
+    <div className="w-2/6 p-2 bg-bgrhl rounded-md border border-neutral-900">
+      <div className="font-semibold border-b-1 border-zinc-600">Item</div>
       <div className="flex my-2">
         <div
           className={`w-1/4 text-center ${option === 'component' ? 'border-b-2 border-red-500' : ''}`}

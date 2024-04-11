@@ -2,8 +2,8 @@ import ListChampion from './ListChampion'
 
 const ChampionPicker = () => {
   return (
-    <div className="w-4/6 champion-list p-2 flex flex-col gap-1 bg-zinc-800 rounded-md border border-zinc-600">
-      <div className="text-center font-semibold">Champion List</div>
+    <div className="w-4/6 champion-list p-2 flex flex-col gap-1 bg-bgrhl rounded-md border border-neutral-900">
+      <div className="font-semibold">Unit</div>
       <ListChampion cost={1} className={'border-2 border-neutral-500 rounded'} />
       <ListChampion cost={2} className={'border-2 border-emerald-500 rounded'} />
       <ListChampion cost={3} className={'border-2 border-cyan-500 rounded'} />
